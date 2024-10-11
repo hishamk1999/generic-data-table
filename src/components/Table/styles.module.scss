@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.table {
+  width: 100%;
+  border-spacing: 0;
+
+  th {
+    padding: 4px 8px;
+    text-align: start;
+    border-block-end: 1px solid #ccc;
+  }
+
+  td {
+    padding: 4px 8px;
+    text-align: start;
+    word-wrap: break-word;
+    border-block-end: 1px solid #cccccc57;
+  }
+}
